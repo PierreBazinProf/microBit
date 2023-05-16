@@ -62,7 +62,7 @@ Efface le mot ``|| basic: Hello! ||`` du bloc ``|| basic: 
 
 Écris ton nom de famille dans le bloc ``|| basic: afficher texte ||`` (ex. : Bazin). 
 
- 
+
 
 ```blocks 
 
@@ -75,10 +75,24 @@ input.onButtonPressed(Button.B, function () {
  
 
 ## Étape 6
+
+ Ajoute le bloc ``|| basic: montrer l'icône ||`` dans le bloc ``||input:lorsque le bouton A+B est pressé||``. 
+
+Choisis l'icône de ton choix. 
+
+```blocks 
+
+input.onButtonPressed(Button.AB, function () {
+    basic.showIcon(IconNames.Happy)
+})
+
+
+``` 
+
+## @showdialog 
+
 Télécharge le programme dans le micro:bit. 
 
- 
-
-Teste le programme! 
+ Teste le programme! 
 
  
