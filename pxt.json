@@ -12,7 +12,8 @@
         "main.blocks",
         "main.ts",
         "tuto_1.md",
-        "servo_1.md"
+        "servo_1.md",
+        "tuto_2.md"
     ],
     "testFiles": [
         "test.ts"
